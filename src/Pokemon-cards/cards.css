@@ -1,0 +1,163 @@
+.card {
+    margin: 5%;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url("/public/Imagenes/Pokeball.png");
+    background-repeat: no-repeat;
+    background-position: 94% 2%;
+    background-blend-mode: color-dodge;
+    background-size: 55%;
+}
+
+.stats-name {
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    padding-right: 15%;
+}
+
+progress {
+    width: 300px;
+}
+
+.Stats {
+    padding: 0 5% 5% 5%;
+}
+
+.Stats ul li {
+    display: grid;
+    grid-template-columns: 12% 14% 1fr;
+    text-align: right;
+}
+.Stats h3 {
+    text-align: center;
+}
+
+.stats-value {
+    padding: 0;
+    margin: 0;
+    padding-right: 15%;
+    border-left: ridge;
+}
+
+.info-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-size: smaller;
+    margin-top: -18%;
+    padding-top: 17%;
+}
+
+.info-container h3 {
+    text-align: center;
+    margin: 5%;
+}
+
+.types {
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+    height: fit-content;
+    padding: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.about-pokemon {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.data-container {
+    display: flex;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.weight {
+    border-right: 1px ridge rgb(189, 187, 187);
+    padding-right: 5%;
+}
+
+.height {
+    border-right: 1px ridge rgb(189, 187, 187);
+    padding: 0% 5% 0 5%;
+}
+
+.data-container div {
+    font-size: smaller;
+    margin: 5px;
+}
+
+.dataText {
+    font-size: smaller;
+    font-weight: normal;
+    text-align: center;
+}
+
+.moves-container {
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.moves {
+    font-size: smaller;
+    margin-left: 10px;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: 10% 75% 15%;
+    grid-template-rows: 1fr;
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+
+.idTag {
+    font-weight: bold;
+    font-size: 70%;
+}
+
+.nameTag {
+    font-size: 150%;
+}
+
+.boxImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+}
+
+.boxImage button {
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 30%;
+}
+.arrowScroll1 {
+    right: 15%;
+}
+
+.arrowScroll2 {
+    left: 15%;
+    transform: scaleX(-1);
+}
